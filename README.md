@@ -1,5 +1,6 @@
 # telecom-analysis-sprint7-final-project
 📊 Proyecto 6 - Análisis de Clientes de Telecomunicaciones (ConnectaTel)
+
 📌 Descripción del Proyecto
 
 Este proyecto tiene como objetivo analizar el comportamiento de los clientes de ConnectaTel, una empresa de telecomunicaciones con operaciones en Latinoamérica.
@@ -13,6 +14,7 @@ Identificar valores atípicos (outliers).
 Segmentar clientes según edad y nivel de uso.
 Generar insights que apoyen la toma de decisiones comerciales.
 Proponer mejoras en la oferta de planes y estrategias de retención.
+
 📂 Datasets Utilizados
 plans.csv
 
@@ -43,6 +45,7 @@ type (call o text)
 duration
 length
 date
+
 🔎 Etapas del Análisis
 1. Carga y Exploración de Datos
 Importación de librerías.
@@ -79,6 +82,7 @@ Adulto Mayor
 Identificación de segmentos de mayor valor.
 Detección de oportunidades comerciales.
 Recomendaciones para optimizar la oferta de planes.
+
 🛠️ Tecnologías Utilizadas
 Python
 Pandas
@@ -87,6 +91,7 @@ Matplotlib
 Seaborn
 Jupyter Notebook
 GitHub
+
 ▶️ Cómo Ejecutar el Proyecto
 Opción 1: Google Colab
 Descargar el archivo .ipynb.
@@ -104,6 +109,7 @@ pip install pandas numpy matplotlib seaborn jupyter
 Ejecutar:
 jupyter notebook
 Abrir el notebook principal y ejecutar todas las celdas.
+
 🔄 Guía de Reproducción
 Descargar o clonar este repositorio.
 Colocar los archivos:
@@ -113,11 +119,13 @@ usage.csv
 Abrir el notebook.
 Ejecutar las celdas en orden desde el inicio.
 Revisar las visualizaciones, estadísticas y conclusiones generadas.
+
 💡 Principales Hallazgos
 Se identificaron problemas de calidad de datos relacionados con sentinels y fechas fuera de rango.
 Los usuarios de alto consumo representan el segmento de mayor valor para la empresa.
 Se detectaron patrones de uso intensivo que justifican ofertas diferenciadas.
 La segmentación por edad y comportamiento permite diseñar estrategias comerciales más efectivas.
+
 👩‍💻 Autor
 
 Denisse Ungson
